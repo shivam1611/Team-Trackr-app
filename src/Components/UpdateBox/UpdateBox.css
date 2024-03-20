@@ -1,0 +1,41 @@
+.update-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--primary);
+  width: 20rem;
+  height: 14rem;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.3rem;
+  color: var(--light);
+  text-align: center;
+  font-size: 0.7rem;
+  font-style: lighter;
+}
+.statement {
+  color: var(--secondary);
+}
+h1 {
+  margin: 0.5rem 0;
+}
+.okay-btn{
+  margin-top: 1rem;
+  border: none;
+}
+.okay-btn:hover {
+  cursor: pointer;
+}
+.okay-btn:active{
+    background-color: calc(var(--primary) + 10%);
+}
+span {
+  color: var(--light);
+  padding-left: .2rem;
+}
